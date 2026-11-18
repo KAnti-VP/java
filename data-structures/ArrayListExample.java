@@ -47,7 +47,7 @@ public class ArrayListExample {
         System.out.println("nums: " + nums);
         System.out.println("list: " + list);
 
-        nums.remove(new Integer(61));
+        nums.remove(Integer.valueOf(61));
         System.out.println(nums);
 
         System.out.println(nums.subList(1, 4));
