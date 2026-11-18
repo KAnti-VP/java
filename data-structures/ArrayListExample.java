@@ -31,13 +31,7 @@ public class ArrayListExample {
 
         System.out.println("-------------------------------");
 
-        List<Integer> nums = new ArrayList<>();
-        nums.add(13);
-        nums.add(79);
-        nums.add(61);
-        nums.add(22);
-        nums.add(72);
-        nums.add(8);
+        List<Integer> nums = new ArrayList<>(List.of(13, 79, 61, 22, 72, 8));
         System.out.println(nums);
 
         // copy of List
