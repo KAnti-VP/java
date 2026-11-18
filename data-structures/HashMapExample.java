@@ -4,12 +4,11 @@ import java.util.Map;
 public class HashMapExample {
 
     public static void main(String[] args) {
-        HashMap<String, String> capitalCities = new HashMap<>();
-
-        capitalCities.put("England", "London");
-        capitalCities.put("Germany", "Berlin");
-        capitalCities.put("Norway", "Oslo");
-        capitalCities.put("USA", "Washington DC");
+        Map<String, String> capitalCities = new HashMap<>(Map.of(
+        "England", "London",
+        "Germany", "Berlin",
+        "Norway", "Oslo",
+        "USA", "Washington DC"));
         System.out.println(capitalCities);
 
         // overwrites the previous value
